@@ -1,0 +1,88 @@
+body{
+    background-color:wheat;
+     background-image: url();
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.navbar{
+    background-color:brown;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://cdn.wynnresorts.com/q_auto,f_auto,w_1920/Wynn%20Las%20Vegas/Dining/Casual%20Dining/The%20Cafe/403_Drugstore_Cafe_Exterior_Barbara_Kraft");
+  filter: blur(8px);
+  -webkit-filter: blur(5px);
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.single{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:250px;
+}
+.double{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+}
+.pp{
+    color:chocolate;
+    font-size:50px;
+}
+.container-fluid{
+    border-width:50px;
+    border-color:chocolate;
+    margin-left:auto;
+    margin-right:auto;
+}
+.poopoo{
+    color:black;
+    font-size:25px;
+}
+hr{
+    color:brown;
+    height:3px;
+    border:none;
+}
+.big{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+}
+.idk{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+}
